@@ -1,0 +1,32 @@
+.outer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.output {
+    height: 80px;
+    width: 246px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+
+
+.one, .two, .three, .plus, .four, .five, .six, .minus, .seven, .eight, .nine, .times, .clear, .zero, .equals, .divide {
+    display: inline-block;
+    height: 40px;
+    width: 50px;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.one, .four, .seven, .clear {
+    margin-left: 0;
+}
+
+#one, #two, #three, #plus, #four, #five, #six, #minus, #seven, #eight, #nine, #times, #clear, #zero, #equals, #divide {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    font-size: 25px;
+}
